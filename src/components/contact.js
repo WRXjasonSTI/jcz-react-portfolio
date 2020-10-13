@@ -15,11 +15,14 @@ class Contact extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Thanks for dropping by! Please feel free to contact me via email or through LinkedIn. I am open to learning new things or collaborating on projects specializing in the MERN stack or SQL database work.
+              Thanks for dropping by! Please feel free to contact me via email
+              or through LinkedIn. I am open to learning new things or
+              collaborating on projects specializing in the MERN stack or SQL
+              database work.
             </p>
           </Cell>
           <Cell col={6}>
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <hr />
 
             <div className="contact-list">
@@ -28,8 +31,8 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    (123) 456-7890
+                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    <a href="https://www.linkedin.com/in/jpfcruz/"> LinkedIn</a>
                   </ListItemContent>
                 </ListItem>
 
@@ -37,8 +40,8 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-fax" aria-hidden="true" />
-                    (123) 456-7890
+                    <i className="fa fa-github-square" aria-hidden="true" />
+                    <a href="https://github.com/WRXjasonSTI"> WRXjasonSTI</a>
                   </ListItemContent>
                 </ListItem>
 
@@ -55,8 +58,8 @@ class Contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
-                    <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID
+                    <i className="fa fa-instagram" aria-hidden="true" />
+                    notjasonipromise
                   </ListItemContent>
                 </ListItem>
               </List>

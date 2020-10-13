@@ -20,14 +20,14 @@ class Landing extends Component {
               <hr />
 
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | React Native |
-                NodeJS | Express | MongoDB
+                HTML | CSS | JavaScript/jQuery | Bootstrap | Bulma | NodeJS |
+                Express | MongoDB | React.js
               </p>
 
               <div className="social-links">
                 {/* LinkedIn */}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/jpfcruz/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -36,29 +36,20 @@ class Landing extends Component {
 
                 {/* Github */}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/WRXjasonSTI"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
-                {/* Freecodecamp */}
-                <a
-                  href="http://google.com"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
-
                 {/* Youtube */}
                 <a
-                  href="http://google.com"
+                  href="http://instagram.com/notjasonipromise"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-youtube-square" aria-hidden="true" />
+                  <i className="fa fa-instagram" aria-hidden="true" />
                 </a>
               </div>
             </div>
